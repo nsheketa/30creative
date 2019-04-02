@@ -1,0 +1,52 @@
+//custom reseting
+
+body, html {
+  height: 100%;
+  min-height: 100%;
+}
+
+main{
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $baseFontFamily;
+  font-weight: 400;
+  font-size: $baseFontSizePixel;
+  line-height: $baseLineHeight;
+  color: $textColor;
+  background: $bodyBackground;
+  min-width: 320px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input, button, a {outline: none;}
+
+img{
+  max-width: 100%;
+  min-height: 1px;
+}
+
+a{
+  text-decoration: none;
+  &:hover,
+  &:focus,
+  &:active{
+    text-decoration: none;
+  }
+}
+ul li{
+  list-style: none;
+}
+
+//importing style modules for pages and section
+
+@import "layout_modules/text-style";
+@import "layout_modules/general-styles";
+@import "layout_modules/header";
+@import "layout_modules/homepage";

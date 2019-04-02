@@ -1,0 +1,30 @@
+$Questrial: 'Questrial', sans-serif;
+$CenturyGothic: 'Century Gothic', sans-serif;
+
+$baseFontFamily: $Questrial;
+
+@mixin font-size($size:18) {
+    font-size: $size * 1px;
+    font-size: ($size / $baseFontSize) * 1rem;
+}
+
+$baseFontSize: 18;
+$baseFontSizePixel: $baseFontSize * 1px;
+
+$baseLineHeight: 1.4;
+$textColor: #808285;
+$bodyBackground: #fff;
+
+$fontsUrl: "../fonts/";
+$imgUrl: "../img/";
+
+//bootstrap overwrite
+
+$grid-breakpoints: (
+ xs: 0,
+ sm: 576px,
+ md: 768px,
+ lg: 992px,
+ xl: 1200px,
+ xxl:1400px
+)

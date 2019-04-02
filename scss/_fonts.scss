@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Questrial';
+  src: url('#{$fontsUrl}Questrial-Regular.eot');
+  src: url('#{$fontsUrl}Questrial-Regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontsUrl}Questrial-Regular.woff2') format('woff2'),
+  url('#{$fontsUrl}Questrial-Regular.woff') format('woff'),
+  url('#{$fontsUrl}Questrial-Regular.ttf') format('truetype'),
+  url('#{$fontsUrl}Questrial-Regular.svg#Questrial-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('#{$fontsUrl}CenturyGothic.eot');
+  src: url('#{$fontsUrl}CenturyGothic.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontsUrl}CenturyGothic.woff2') format('woff2'),
+  url('#{$fontsUrl}CenturyGothic.woff') format('woff'),
+  url('#{$fontsUrl}CenturyGothic.ttf') format('truetype'),
+  url('#{$fontsUrl}CenturyGothic.svg#CenturyGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

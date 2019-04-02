@@ -1,0 +1,11 @@
+.padding-lr-0{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body, html{
+  &.no-scroll{
+    overflow-y: hidden;
+  }
+}
+
